@@ -1,0 +1,79 @@
+body{
+  background: url('../img/wall.jpeg') no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; /* Fallback */
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+section h1{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  font-weight: 300;
+  cursor: default;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  text-shadow: var(--text-sh-);
+}
+
+h1 span{
+  display: inline-flex;
+  color: var(--gr-);
+}
+
+h1 span:nth-child(even){
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  color: var(--gr-);
+  border-bottom: 4px solid var(--dc-);
+  letter-spacing: -1em;
+}
+
+h1:hover span:nth-child(even){
+  letter-spacing: 0;
+}
+
+h1:hover span:nth-child(2){
+  transition-delay: 0;
+}
+h1:hover span:nth-child(4){
+  transition-delay: 0.5s;
+}
+h1:hover span:nth-child(6){
+  transition-delay: 1s;
+}
+h1:hover span:nth-child(8){
+  transition-delay: 1.5s;
+}
+
+h2{
+  font-weight: 300;
+  text-align: center;
+  color: var(--gr-);
+  text-shadow: var(--text-sh-);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */
